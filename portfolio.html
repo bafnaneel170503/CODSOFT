@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portbuild</title>
+    <link rel="stylesheet" href="port.css">
+    <script src="https://kit.fontawesome.com/febeeff8e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Final Logo.jpg" class="logo">
+                <ul id="sidemenu"> 
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+             </nav>
+             <div class="textbox">
+                <h1>I'm <span class="auto-input" ></span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Hic blanditiis molestiae tempora, illum optio ullam inventore recusandae assumenda minus eveniet error repellendus illo? Laborum veritatis et labore ipsam minus tenetur.</p>
+               
+             </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Final Logo.jpg">
+                </div>
+                <div class="about-col-2"> 
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae vel rerum adipisci beatae omnis ab dolorum non, recusandae commodi voluptate quos consequatur quis cumque natus aut explicabo officiis vitae animi?
+                    Dolorum nulla maxime mollitia dicta dignissimos fugiat, quas odit aspernatur, ducimus molestias accusantium! Officia blanditiis ducimus esse labore suscipit fugiat repudiandae repellendus nihil a, voluptatem atque quam dolore! Modi, suscipit!</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links "onclick="opentab('Education')">Education</p>
+                    <p class="tab-links"onclick="opentab('Awards')">Awards</p>
+                </div>
+
+                <div class="tab-contents active-tabs" id="Skills">
+                    <ul>
+                        <li><span>UI/UX</span><br> Designing interfaces</li>
+                        <li><span>Web Development</span><br> Web App Development</li>
+                        <li><span>App development</span><br> Building IOS Apps</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2008-2019</span><br>DAV Public School</li>
+                        <li><span>2019-2020</span><br> Fergusson College</li>
+                        <li><span>2020-2023</span><br> MIT-WPU</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Awards">
+                    <ul>
+                        <li><span>Award of Excellence</span><br> Designing interfaces</li>
+                        <li><span>Award of Excellence</span><br> Web App Development</li>
+                        <li><span>Award of Excellence</span><br> Building IOS Apps</li>
+                    </ul>
+                </div>
+            </div>
+
+
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle"> My Services</h1>  
+            <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ipsam totam tenetur nulla rem deserunt perferendis voluptates quisquam facilis iusto cupiditate excepturi, doloribus incidunt maxime recusandae illo nemo delectus quibusdam.
+                </p>
+                <a href="#">Learn More</a>
+             
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Graphic Design</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ipsam totam tenetur nulla rem deserunt perferendis voluptates quisquam facilis iusto cupiditate excepturi, doloribus incidunt maxime recusandae illo nemo delectus quibusdam.
+                 </p>   
+                 <a href="#">Learn More</a>
+               
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ipsam totam tenetur nulla rem deserunt perferendis voluptates quisquam facilis iusto cupiditate excepturi, doloribus incidunt maxime recusandae illo nemo delectus quibusdam.
+                </p>    
+                <a href="#">Learn More</a>
+               
+            </div>
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ipsam totam tenetur nulla rem deserunt perferendis voluptates quisquam facilis iusto cupiditate excepturi, doloribus incidunt maxime recusandae illo nemo delectus quibusdam.
+                </p>   
+                 <a href="#">Learn More</a>
+                
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <div class="layer">
+                        <h4>Educational Website</h4>
+                        <p>Students and all individuals are invited to this website to learn more about thier courses. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        
+                    </div>
+                    <img src="https://images.mktw.net/im-318713?width=700&height=477">
+                </div>
+                <div class="work">
+                    <div class="layer">
+                        <h4>Portfolio Website</h4>
+                        <p>Students and all individuals are invited to this website to build a strong resume and apply for various jobs. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    <img src="https://cdn.dribbble.com/users/63224/screenshots/844923/yeni.jpg?resize=400x0">
+                </div>
+                <div class="work">
+                    <div class="layer">
+                        <h4>Photographs Website</h4>
+                        <p>All photographers from forest,travel and company are invited in this website and share thier original content here </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    <img src="https://cdn.dribbble.com/users/90631/screenshots/16405645/media/2de2daa7a61d18bfffc8c19d074d57ad.png?resize=400x300&vertical=center">
+                </div>
+            </div>
+            <a href="#" class="btn">More Info</a>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+               <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a> 
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a> 
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>                
+                </div>
+                <a href="#" class="btn btn2">Download Resume</a>
+               </div>
+               <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="My Name" required>   
+                    <input type="email" name="email" placeholder="Email Address" required> 
+                 <textarea name="Message" rows="2" placeholder="Your Message"></textarea>
+                 <button type="Submit" class="btn btn2">Submit</button>          
+                </form>
+               </div>
+            </div>
+        </div>
+   <div class="copyright">
+    <p>Copyright <i class="fa-regular fa-copyright"></i> Portbuild. Made With <i class="fa-brands fa-phoenix-framework"></i> By Neel Bafna</p>
+   </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" ></script>
+    <script>
+            var typed = new Typed(".auto-input" , {
+            strings : ["Neel Bafna", "Web Developer", "Event Coordinator"],
+            typeSpeed:100,
+            backSpeed:100,
+            loop: true
+        })
+    </script>
+    <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tabs");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tabs")
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+</body>
+</html>
